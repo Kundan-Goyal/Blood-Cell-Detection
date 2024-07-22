@@ -1,0 +1,6 @@
+.bounding-box {
+      border: 2px solid red;
+      position: absolute;
+      pointer-events: none;
+    }
+    
