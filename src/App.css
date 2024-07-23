@@ -36,3 +36,131 @@
     transform: rotate(360deg);
   }
 }
+
+/* Full-width navbar */
+.navbar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000; /* Ensures the navbar stays on top */
+}
+
+/* Full-width navbar */
+.navbar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000; /* Ensures the navbar stays on top */
+}
+
+/* Wrapper for full-page layout */
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  padding-top: 60px; /* Adjust this value based on your navbar height */
+}
+
+/* Container for centering content */
+.content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  width: 100%;
+}
+
+/* Style for the form */
+.image-form {
+  border-block-start-color: blue;
+  border-block-end-color: blue;
+  text-align: center;
+  width: 100%; /* Ensures the form takes up full width */
+  max-width: 800px; /* Optional: limits the form's maximum width */
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+/* Grouping form elements */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* File upload button style */
+.file-upload {
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.custom-upload-button {
+  display: inline-block;
+  border-radius: 5px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  position: relative;
+  z-index: 1;
+}
+
+.custom-upload-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.custom-upload-button:active {
+  transform: scale(1);
+}
+
+/* Submit button style */
+.custom-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.custom-button:hover {
+  background-color: #0056b3;
+}
+
+/* Image container for centering the image */
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: 2rem;
+}
+
+/* Style for the response image */
+.response-image {
+  width: 800px;
+  height: 600px;
+  position: relative;
+}
+/* Style for the input box */
+.custom-input {
+  width: 40rem; /* Adjust the width to full available space */
+  max-width: 500px; /* Optional: limits the maximum width of the input box */
+}
+.form-label {
+  visibility: hidden; /* Hides the text completely */
+}
